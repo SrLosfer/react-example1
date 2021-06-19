@@ -24,15 +24,15 @@ function App() {
             <NavLink to="/" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Home</h5>
                 </NavLink>
-                <NavLink to="/AboutMe" className="btn btn-dark m-5" activeClassName="active">
+                <NavLink to="/react-example1/components/AboutMe" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">About Me</h5>
 
                 </NavLink>
-                <NavLink to="/MyHobbies" className="btn btn-dark m-5" activeClassName="active">
+                <NavLink to="/react-example1/components/MyHobbies" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">My Hobbie</h5>
 
                 </NavLink>
-                <NavLink to="/ContactMe" className="btn btn-dark m-5" activeClassName="active">
+                <NavLink to="/react-example1/components/ContactMe" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Contact Me</h5>
 
                 </NavLink>
@@ -45,13 +45,13 @@ function App() {
             <Route path="/" exact>
               <Home/>
             </Route>
-            <Route path="/AboutMe" exact>
+            <Route path="/react-example1/components/AboutMe" exact>
               <AboutMe />
             </Route>
-            <Route path="/MyHobbies" exact>
+            <Route path="/react-example1/components/MyHobbies" exact>
               <MyHobbies />
             </Route>
-            <Route path="/ContactMe" exact>
+            <Route path="/react-example1/components/ContactMe" exact>
               <ContactMe />
             </Route>
           </Switch>
