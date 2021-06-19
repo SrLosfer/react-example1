@@ -43,7 +43,7 @@ function App() {
         <body>
           <Switch>
             <Route path="react-example1/" exact>
-              <Home/>
+              <h2>hola sol el home</h2>
             </Route>
             <Route path="/AboutMe" exact>
               <AboutMe />
