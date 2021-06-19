@@ -21,18 +21,18 @@ function App() {
           <div className="Titulo">
             <img src={logo} className="App-logo" alt="logo" />
             <div className="btn-group">
-            <NavLink to="/react-example/" className="btn btn-dark m-5" activeClassName="active">
+            <NavLink to="/" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Home</h5>
                 </NavLink>
-                <NavLink to="react-example1/AboutMe" className="btn btn-dark m-5" activeClassName="active">
+                <NavLink to="/AboutMe" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">About Me</h5>
 
                 </NavLink>
-                <NavLink to="react-example1/MyHobbies" className="btn btn-dark m-5" activeClassName="active">
+                <NavLink to="/MyHobbies" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">My Hobbie</h5>
 
                 </NavLink>
-                <NavLink to="react-example1/ContactMe" className="btn btn-dark m-5" activeClassName="active">
+                <NavLink to="/ContactMe" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Contact Me</h5>
 
                 </NavLink>
@@ -42,16 +42,16 @@ function App() {
         </header>
         <body>
           <Switch>
-            <Route path="/react-example1/" exact>
+            <Route path="/" exact>
               <Home/>
             </Route>
-            <Route path="react-example1/AboutMe" exact>
+            <Route path="/AboutMe" exact>
               <AboutMe />
             </Route>
-            <Route path="react-example1/MyHobbies" exact>
+            <Route path="/MyHobbies" exact>
               <MyHobbies />
             </Route>
-            <Route path="react-example1/ContactMe" exact>
+            <Route path="/ContactMe" exact>
               <ContactMe />
             </Route>
           </Switch>
