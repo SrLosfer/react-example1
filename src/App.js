@@ -42,7 +42,7 @@ function App() {
         </header>
         <body>
           <Switch>
-            <Route path="/" exact>
+            <Route path="/Home" exact>
               <Home/>
             </Route>
             <Route path="/AboutMe" exact>
