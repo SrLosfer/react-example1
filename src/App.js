@@ -42,8 +42,8 @@ function App() {
         </header>
         <body>
           <Switch>
-            <Route path="/">
-            <h2>hola sol el home</h2>
+            <Route path="/Home">
+            <Home />
             </Route>
               
             
