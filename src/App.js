@@ -42,9 +42,8 @@ function App() {
         </header>
         <body>
           <Switch>
-            <Route path="react-example1/" exact>
               <h2>hola sol el home</h2>
-            </Route>
+            
             <Route path="/AboutMe" exact>
               <AboutMe />
             </Route>
