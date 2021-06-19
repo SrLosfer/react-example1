@@ -21,7 +21,7 @@ function App() {
           <div className="Titulo">
             <img src={logo} className="App-logo" alt="logo" />
             <div className="btn-group">
-            <NavLink to="/Home" className="btn btn-dark m-5" activeClassName="active">
+            <NavLink to="http://srlosfer.github.io/react-example1/Home" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Home</h5>
                 </NavLink>
                 <NavLink to="/AboutMe" className="btn btn-dark m-5" activeClassName="active">
