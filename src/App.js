@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from "./components/Home";
-import AboutMe from "./components/AboutMe";
-import ContactMe from "./components/ContactMe";
-import MyHobbies from "./components/MyHobbies";
+import Home from "./Home";
+import AboutMe from "./AboutMe";
+import ContactMe from "./ContactMe";
+import MyHobbies from "./MyHobbies";
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,7 +21,7 @@ function App() {
           <div className="Titulo">
             <img src={logo} className="App-logo" alt="logo" />
             <div className="btn-group">
-            <NavLink to="/" className="btn btn-dark m-5" activeClassName="active">
+            <NavLink to="/Home" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Home</h5>
                 </NavLink>
                 <NavLink to="/AboutMe" className="btn btn-dark m-5" activeClassName="active">
@@ -42,7 +42,7 @@ function App() {
         </header>
         <body>
           <Switch>
-            <Route path="/" exact>
+            <Route path="/Home" exact>
               <Home/>
             </Route>
             <Route path="/AboutMe" exact>
