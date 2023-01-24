@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logoMangus.jpg';
 import './App.css';
 import Home from "./Home";
 import AboutMe from "./AboutMe";
@@ -19,7 +19,7 @@ function App() {
       <div className="Container mt-5 m-5 p-1">
         <header className="App-header">
           <div className="Titulo">
-            <img src={logo} className="App-logo" alt="" />
+            <img src={logo} className="App-logo" alt="logo" />
             <div className="btn-group">
             <NavLink to="/react-example1/" className="btn btn-dark m-5" activeClassName="active">
                   <h5 className="bg-dark m-1">Home</h5>
